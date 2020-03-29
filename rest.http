@@ -1,0 +1,18 @@
+###
+
+GET http://localhost:3333/users
+
+###
+
+
+POST http://localhost:3333/ongs
+Content-Type: application/json
+
+{
+	"name": "asdfasdf",
+	"email": "asdfasdf@gmail.com",
+	"whatsapp": "619990000",
+	"city": "Lalaland",
+	"uf": "GO",
+	"teste": "falhou"
+}
